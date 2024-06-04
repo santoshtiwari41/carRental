@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="../index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .reservation-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .reservation-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .reservation-form input[type="text"],
+        .reservation-form input[type="email"],
+        .reservation-form input[type="date"],
+        .reservation-form input[type="number"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .reservation-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .reservation-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reservation</h1>
+    </header>
+
+    <main>
+        <section class="reservation-section">
+            <div class="reservation-form">
+                <form>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                  
+                    <input type="date" placeholder="Pickup Date">
+                    <input type="number" placeholder="Number of Days">
+                    <textarea placeholder="Additional Comments"></textarea>
+                    <button type="submit">Submit Reservation</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Car Rental. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="../img/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="../img/twiter.png" alt="Twitter"></a>
+                <a href="#"><img src="../img/ins.jpg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

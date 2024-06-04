@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locations</title>
+    <link rel="stylesheet" href="../index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .locations-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            justify-items: center;
+        }
+
+        .location-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            max-width: 300px;
+        }
+
+        .location-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .location-card img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .location-card-content {
+            padding: 20px;
+        }
+
+        .location-card h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .location-card p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Locations</h1>
+    </header>
+
+    <main>
+        <section class="locations-section">
+            <div class="container">
+                <div class="location-card">
+                    <img src="../img/map1.jpg" alt="Location 1">
+                    <div class="location-card-content">
+                        <h2>Main branch</h2>
+                        <p>123 Main Street, City</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="../img/map2.jpg" alt="Location 2">
+                    <div class="location-card-content">
+                        <h2>Branch 1</h2>
+                        <p>456 Park Avenue, Town</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="../img/map3.jpg" alt="Location 3">
+                    <div class="location-card-content">
+                        <h2>Branch 2</h2>
+                        <p>789 Elm Street, Village</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Car Rental. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="../img/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="../img/twiter.png" alt="Twitter"></a>
+                <a href="#"><img src="../img/ins.jpg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

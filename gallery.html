@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Services</a>
+                <ul class="hoveritem">
+                   
+                  <li><a href="services/vehicle.html">Vehicles</a></li>
+                    <li><a href="services/deals.html">Deals</a></li>
+                    <li><a href="services/locations.html">Locations</a></li>
+                    <li><a href="services/insurance.html">Insurance</a></li>
+                    <li><a href="services/reservation.html">Reservation</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="gallery.html" class="active">Project Gallery</a></li>
+            <li><a href="partner.html">Partner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="reference.html">Reference</a></li>
+        </ul>
+    </nav>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gallery</title>
+    <link rel="stylesheet" href="../index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .gallery-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .gallery-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            height: 300px;
+            width: 500px;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .gallery-item-content {
+            padding: 20px;
+        }
+
+        .gallery-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .gallery-item p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+   
+
+    <main>
+        <section class="gallery-section">
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="./img/eng.jpg" alt="Project 1">
+                    <div class="gallery-item-content">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis fermentum leo ut consectetur.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/tyre2.jpg" alt="Project 2">
+                    <div class="gallery-item-content">
+                        <h3>Project 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis fermentum leo ut consectetur.</p>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Car Rental. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="/img/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="/img/twiter.png" alt="Twitter"></a>
+                <a href="#"><img src="/img/ins.jpg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
